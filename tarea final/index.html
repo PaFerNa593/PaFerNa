@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header>
+      <h1>Bienvenido a mi Portafolio</h1>
+      <nav>
+          <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#sobre-mi">Sobre mí</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#galeria">Galería de Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <main>
+      <section id="inicio">
+          <h2>Presentación</h2>
+          <p>Hola, soy Pablo Fernandez, un apasionado por el desarrollo web y el diseño.</p>
+      </section>
+
+      <section id="sobre-mi">
+          <h2>Sobre mí</h2>
+          <p>Me gusta aprender nuevas tecnologías y mejorar mis habilidades en programación.</p>
+      </section>
+
+      <section id="habilidades">
+          <h2>Habilidades</h2>
+          <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+          </ul>
+          <table>
+              <caption>Competencias Técnicas</caption>
+              <thead>
+                  <tr>
+                      <th>Lenguaje</th>
+                      <th>Nivel</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>HTML</td>
+                      <td>Avanzado</td>
+                  </tr>
+                  <tr>
+                      <td>CSS</td>
+                      <td>Intermedio</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+
+      <section id="galeria">
+          <h2>Galería de Proyectos</h2>
+          <article>
+              <h3>Proyecto 1</h3>
+              <p>Pagina web en HTML5.</p>
+              <img src="proyecto1.jpg" alt="imagen de proyecto1">
+          </article>
+          <article>
+              <h3>Proyecto 2</h3>
+              <p>Deficinion de estilo de pagina con CSS.</p>
+              <img src="proyecto2.jpg" alt="imagen de proyecto2">
+          </article>
+      </section>
+
+      <section id="contacto">
+          <h2>Contacto</h2>
+          <form action="#" method="post">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+              
+              <button type="submit">Enviar</button>
+          </form>
+      </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2024 Pablo Fernandez. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
