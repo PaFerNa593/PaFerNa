@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #b2e0b2; /* Fondo verde pastel */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex; /* Usar flexbox para alinear secciones */
+    justify-content: center; /* Centrar secciones */
+    flex-wrap: wrap; /* Permitir que las secciones se envuelvan */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff; /* Fondo blanco para las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: box-shadow 0.3s; /* Transición suave para el efecto de sombra */
+}
+
+section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más intensa al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
